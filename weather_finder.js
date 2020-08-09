@@ -19,8 +19,7 @@ const weather=(search,callback)=>{
                 longi:res.body.location.lon,
                 name:res.body.location.name,
                 region:res.body.location.region,
-                country:res.body.location.country
-
+                country:res.body.location.country,
             })
         }
     })
